@@ -1,0 +1,9 @@
+Start
+  InputAccountBalance
+  InputNumberofTimesAccountWasOverdrawn
+  OverdrawnFee=1% * AccountBalance-$5.00*NumberofTimesAccountWasOverdrawn
+  NewAccountBalance=AccountBalance-OverdrawnFee
+  OutputOverdrawnFee
+  OutputNewAccountBalance
+  OutputThanksforusingthisprogram
+Stop
